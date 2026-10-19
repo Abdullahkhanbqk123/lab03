@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    int age;
+    float gpa;
+
+    cout << "Enter name: ";
+    cin >> name;
+    cout << "Enter age: ";
+    cin >> age;
+    cout << "Enter GPA: ";
+    cin >> gpa;
+
+    // Task 1: display data line by line
+    cout << "\nStudent Information" << endl;
+    cout << "-------------------" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "GPA: " << gpa << endl;
+
+    return 0;
+}
